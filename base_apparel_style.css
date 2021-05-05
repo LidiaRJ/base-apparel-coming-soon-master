@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --var-des-red: hsl(0, 36%, 70%);
+    --var-soft-red: hsl(0, 93%, 68%);
+    --var-dark-grey: hsl(0, 6%, 24%);
+    --var-gradient-whtie: linear-gradient(135deg, hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+    --var--gradient-red: linear-gradient(135deg, hsl(0, 80%, 86%),  hsl(0, 74%, 74%));
+}
+
+html {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%; 
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+tittle {
+    display: none;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    min-height: 100vh; 
+    background: rgb(31, 28, 28);
+    align-content: space-around; /*keep card centered + auto margin on child elements*/
+    margin-top: 100px;
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 420px;
+    margin: 2rem auto;
+    background: white;
+    padding-bottom: 50px;;
+}
+
+.logo {
+    margin: 2rem;
+    width: 110px;
+    height: auto;
+}
+
+.image__container {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero__desktop {
+    display: none;
+}
+
+.hero__mobile {
+    width: 420px;
+    max-width: 100%; /*makes it responsive*/
+    height: auto;
+}
+
+.copy__container {
+    display: block;
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    padding: 50px 40px 10px 40px;
+}
+
+h1 {
+    font-size: 2.85rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    line-height: 3.2rem;
+    color: var(--var-dark-grey);
+}
+
+span {
+    color: var(--var-des-red);
+    font-weight: 300;
+}
+
+p {
+    text-align: center;
+    color: var(--var-des-red);
+    line-height: 1.5rem;
+    
+}
+
+.form {
+    position: relative;
+}
+.form__control {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color:hsl(0, 36%, 70%);
+}
+
+.form__control input {
+    color:hsl(0, 36%, 70%);
+}
+
+
+#email {
+    width: 350px;
+    height: 55px;
+    border-radius: 30px;
+    border-color: hsla(0, 36%, 70%, 0.300);
+    color: var(--var-dark-grey);
+    font-size: 0.90rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    padding-left: 20px;
+    outline: none
+}
+
+input::placeholder {
+    color: hsla(0, 36%, 70%, 0.500);
+}
+
+.error-icon {
+    background: hsl(0, 93%, 68%);
+    position: absolute;
+    border-radius: 50%;
+    right: 80px;
+    top: 15px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.cta {
+    background: var(--var--gradient-red);
+    height: 60px;
+    width: 85px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transform: translate(270px, -57px);
+    box-shadow: 0 10px 30px -5px hsl(0, 36%, 70%);
+}
+
+.cta:active {
+    background: linear-gradient(135deg, hsl(0, 100%, 96%), hsl(0, 90%, 84%));
+}
+.error-message {
+    color:hsl(0, 93%, 68%);
+    padding-left: 25px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding-top: 50px;
+ }
+
+.attribution a {
+     color: white; 
+}
+
+
+@media (min-width: 56em) {
+    .card__container {
+        display: flex;
+        position: relative;
+        margin: 3rem auto;
+        width: 100%;
+        max-width: 1200px;
+        height: 700px;
+        background-image: url(../base-apparel-coming-soon-master/images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .copy__container,
+    .hero__desktop {
+        flex: 1;
+    }
+
+    .hero__mobile {
+        display: none;
+    }
+
+    .hero__desktop {
+        display: block;
+        position: absolute;
+        right: 0;
+        height: 700px;
+        width: 500px
+    }
+
+    .logo {
+        position: relative;
+        width: 100%;
+        max-width: 160px;
+        height: 35px;
+        top: 30px;
+        left: 80px;
+    }
+
+    .copy__container {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        max-width: 500px;
+        top: 100px;
+        left: 80px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 3.2rem;
+    } 
+
+    p {
+        text-align: left;
+    }
+
+    #email {
+        width: 400px;
+        margin-bottom: 20px
+    }
+    
+    .cta {
+        transform: translate(350px, -77px);
+    }
+
+    .error-icon {
+        right: 120px;
+    }
+
+    .error-message {
+        position: relative;
+        transform: translate(-90px);
+    }
+}

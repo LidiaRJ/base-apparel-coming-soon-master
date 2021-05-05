@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../base-apparel-coming-soon-master/base_apparel_style.css">
+
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <div class="card__container">
+    <img class="logo" alt="logo" src="../base-apparel-coming-soon-master/images/logo.svg">
+
+    <div class="image__container">
+      <img class="hero__desktop" src="images/hero-desktop.jpg" alt="women picture">
+      <img class="hero__mobile" src="images/hero-mobile.jpg" alt="women picture">
+    </div>
+      
+    <div class="copy__container">
+      <h1><span>we're</span> coming soon</h1>
+      <p> Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+
+      <form id="form" class="form" novalidate> <!--the 'novalidate' attribute turns off validation on submit -->
+        <div class="form__control">
+          <input type="email" name="email" placeholder="Email Address" id="email"/>
+          <img src="images/icon-error.svg" class="error-icon" id="error-icon" alt="error icon">
+          
+          <button class="cta" type="submit">
+            <img src="images/icon-arrow.svg" class="cta-img" id="cta-img" alt="arrow">
+          </button>
+
+          <div class="error-message" id="error-message">
+            Please provide a valid email
+          </div>
+
+        </div>
+      </form>
+       
+    </div>
+  </div>
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Lidia Jimeno</a>.
+    </p>
+  </footer>
+
+  <script src="base_apparel.js"></script>
+</body>
+</html>
