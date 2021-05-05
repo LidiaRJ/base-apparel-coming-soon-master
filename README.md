@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LidiaRJ/base-apparel-coming-soon-master.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/LidiaRJ/base-apparel-coming-soon-master](https://github.com/LidiaRJ/base-apparel-coming-soon-master.git)
+- Live Site URL: [https://lidiarj.github.io/base-apparel-coming-soon-master/](https://lidiarj.github.io/base-apparel-coming-soon-master/)
 
 ## My process
 
