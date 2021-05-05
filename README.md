@@ -33,7 +33,9 @@ Users should be able to:
 ### Screenshot
 
 [![Desktop_version](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__desktop__LRJ.jpg)](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__desktop__LRJ.jpg)
-[!Desktop_error_version](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__error__LRJ.jpg)](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__error__LRJ.jpg)
+
+[![Desktop_version_error](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__error__LRJ.jpg)](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__error__LRJ.jpg)
+
 [![Mobile_version](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__mobile__LRJ.jpg)](https://github.com/LidiaRJ/base-apparel-coming-soon-master/blob/main/base__apparel__mobile__LRJ.jpg)
 
 ### Links
